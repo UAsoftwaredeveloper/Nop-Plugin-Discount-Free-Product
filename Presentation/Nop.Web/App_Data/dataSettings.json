@@ -1,6 +1,0 @@
-﻿{
-  "DataConnectionString": "Data Source=101.53.145.38;Initial Catalog=wcnop1;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=Fb%aRs4#)s",
-  "DataProvider": "sqlserver",
-  "SQLCommandTimeout": 200,
-  "RawDataSettings": {}
-}
