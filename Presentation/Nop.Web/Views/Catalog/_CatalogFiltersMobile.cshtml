@@ -1,0 +1,45 @@
+﻿@model CatalogProductsModel
+
+@if (!Model.PriceRangeFilter.Enabled &&
+!Model.SpecificationFilter.Enabled &&
+!Model.ManufacturerFilter.Enabled)
+{
+    return;
+}
+<div class="offcanvas offcanvas-start suha-filter-offcanvas-wrap" tabindex="-1" id="suhaFilterOffcanvas" aria-labelledby="suhaFilterOffcanvasLabel">
+    <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+    <div class="offcanvas-body py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="widget catagory mb-4">
+                        @if (Model.PriceRangeFilter.Enabled)
+                        {
+                            @await Html.PartialAsync("_FilterPriceBoxMobile", Model.PriceRangeFilter)
+                        }
+                    </div>
+                </div>
+                @if (Model.SpecificationFilter.Enabled)
+                {
+                    <div class="col-12 p-0">
+                        <div class="widget catagory mb-4">
+
+                            @await Html.PartialAsync("_FilterSpecsBoxMobile", Model.SpecificationFilter)
+
+                        </div>
+                    </div>
+                }
+                @if (Model.ManufacturerFilter.Enabled)
+                {
+                    <div class="col-12 p-0">
+                        <div class="widget catagory mb-4">
+                            @await Html.PartialAsync("_FilterManufacturerBoxMobile", Model.ManufacturerFilter)
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

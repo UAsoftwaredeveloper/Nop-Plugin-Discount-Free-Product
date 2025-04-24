@@ -1,0 +1,36 @@
+﻿@model IList<ProductOverviewModel>
+@inject Nop.Services.Helpers.IUserAgentHelper userAgent
+@if (Model.Count > 0)
+{
+    if (userAgent.IsMobileDevice())
+    {
+        <div class="related-product-wrapper py-3 mb-3">
+            <div class="container">
+                <div class="section-heading d-flex align-items-center justify-content-between">
+                    <h6>Related Products</h6>
+                </div>
+                <div class="related-product-slide owl-carousel">
+                    @foreach (var item in Model)
+                    {
+                        <div class="single-related-product-slide"> @await Html.PartialAsync("_ProductBox", item)</div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+
+        <div class="related-products-grid product-grid">
+            <div class="title">
+                <strong>@T("Products.RelatedProducts")</strong>
+            </div>
+            <div class="item-grid">
+                @foreach (var item in Model)
+                {
+                    <div class="item-box">@await Html.PartialAsync("_ProductBox", item)</div>
+                }
+            </div>
+        </div>
+    }
+}

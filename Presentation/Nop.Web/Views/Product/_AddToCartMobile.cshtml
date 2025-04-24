@@ -1,0 +1,70 @@
+﻿@model ProductDetailsModel.AddToCartModel
+@using Nop.Core.Domain.Orders
+@if (Model.UpdatedShoppingCartItemId > 0)
+{
+    <input asp-for="UpdatedShoppingCartItemId" type="hidden" />
+}
+@if (!Model.DisableBuyButton || Model.CustomerEntersPrice)
+{
+    <div class="cart-form-wrapper bg-white mb-3 py-3">
+        <div class="container">
+            <div class="cart-form">
+                @if (Model.AllowedQuantities.Count > 0)
+                {
+                    <select asp-for="EnteredQuantity" asp-items="Model.AllowedQuantities" id="product_enteredQuantity_@Model.ProductId" class="qty-dropdown" aria-label=@T("Products.Qty.AriaLabel")></select>
+                    <script asp-location="Footer">
+                        $(document).ready(function () {
+                            $("#product_enteredQuantity_@Model.ProductId").on("change", function () {
+                                var data = {
+                                    productId: @Model.ProductId,
+                                    quantity: $('#product_enteredQuantity_@Model.ProductId').find(":selected").text()
+                                };
+                                $(document).trigger({ type: "product_quantity_changed", changedData: data });
+                            });
+                        });
+                    </script>
+                }
+                else
+                {
+
+                    <div class="order-plus-minus d-flex align-items-center">
+                        <div class="quantity-button-handler">-</div>
+                        <input asp-for="EnteredQuantity" id="product_enteredQuantity_@Model.ProductId" class="form-control cart-quantity-input qty-input" type="text" aria-label=@T("Products.Qty.AriaLabel") />
+                        <div class="quantity-button-handler">+</div>
+                    </div>
+                    <script asp-location="Footer">
+                        //when a customer clicks 'Enter' button we submit the "add to cart" button (if visible)
+                        $(document).ready(function() {
+                            $("#@Html.IdFor(model => model.EnteredQuantity)").on("keydown", function(event) {
+                                if (event.keyCode == 13) {
+                                    $("#add-to-cart-button-@Model.ProductId").trigger("click");
+                                    return false;
+                                }
+                            });
+
+                            $("#product_enteredQuantity_@Model.ProductId").on("input propertychange paste", function () {
+                                var data = {
+                                    productId: @Model.ProductId,
+                                    quantity: $('#product_enteredQuantity_@Model.ProductId').val()
+                                };
+                                $(document).trigger({ type: "product_quantity_changed", changedData: data });
+                            });
+                        });
+                    </script>
+
+                }
+                @if (!string.IsNullOrEmpty(Model.MinimumQuantityNotification))
+                {
+                    <div class="min-qty-notification">@Model.MinimumQuantityNotification</div>
+                }
+
+                <button type="button" id="add-to-cart-button-@Model.ProductId" class="btn btn-danger ms-3" data-productid="@Model.ProductId" onclick="AjaxCart.addproducttocart_details('@Url.RouteUrl("AddProductToCart-Details", new { productId = Model.ProductId, shoppingCartTypeId = (int)ShoppingCartType.ShoppingCart })', '#product-details-form');return false;">
+                    Add To Cart
+                </button>
+
+            </div>
+        </div>
+    </div>
+    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ProductDetailsAddInfo, additionalData = Model })
+
+}

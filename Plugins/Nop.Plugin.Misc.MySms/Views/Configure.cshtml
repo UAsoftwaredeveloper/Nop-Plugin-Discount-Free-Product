@@ -1,0 +1,19 @@
+﻿@using Nop.Plugin.Misc.Sms.Models
+@using Nop.Plugin.Misc.Sms.Services
+@model CommonViewModel
+@inject ISmsConfigurationManager _smsconfigmanager
+@{
+    Layout = "_ConfigurePlugin";
+}
+@await Component.InvokeAsync("StoreScopeConfiguration")
+
+<div class="container">
+    <div style="float:right; width:200px;"><span>@Convert.ToDouble(_smsconfigmanager.GetSmswallet()).ToString("0.00")</span></div>
+    <div>
+        <nop-tabs id="WebmaniaSms">
+            <nop-tab asp-name="SmsSettings-Api" asp-title="SmsSettings" asp-default="true">
+                @await Html.PartialAsync("~/Plugins/Misc.MySms/Views/_ApiSettings.cshtml", Model.SmsConfigurationModel)
+            </nop-tab>
+        </nop-tabs>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\bin\Release\net5.0\Nop.Plugin.Misc.FreeProductss.deps.json
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\bin\Release\net5.0\Nop.Plugin.Misc.FreeProductss.dll
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\bin\Release\net5.0\ref\Nop.Plugin.Misc.FreeProductss.dll
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\bin\Release\net5.0\Nop.Plugin.Misc.FreeProductss.pdb
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\obj\Release\net5.0\Nop.Plugin.Misc.FreeProductss.GeneratedMSBuildEditorConfig.editorconfig
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\obj\Release\net5.0\Nop.Plugin.Misc.FreeProductss.AssemblyInfoInputs.cache
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\obj\Release\net5.0\Nop.Plugin.Misc.FreeProductss.AssemblyInfo.cs
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\obj\Release\net5.0\Nop.Plugin.Misc.FreeProductss.csproj.CoreCompileInputs.cache
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\obj\Release\net5.0\Nop.Plugin.Misc.FreeProductss.dll
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\obj\Release\net5.0\ref\Nop.Plugin.Misc.FreeProductss.dll
+D:\nopCommerce_4.40.4_Source wc\Plugins\Nop.Plugin.Misc.FreeProducts\ClassLibrary1\obj\Release\net5.0\Nop.Plugin.Misc.FreeProductss.pdb

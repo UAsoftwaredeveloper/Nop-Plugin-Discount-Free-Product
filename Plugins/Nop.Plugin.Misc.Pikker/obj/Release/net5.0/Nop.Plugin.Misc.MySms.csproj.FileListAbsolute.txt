@@ -1,0 +1,896 @@
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\RestSharp.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\logo.png
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\plugin.json
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Views\Configure.cshtml
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Views\_ApiSettings.cshtml
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Views\_ViewImports.cshtml
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Nop.Plugin.Misc.MySms.deps.json
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Nop.Plugin.Misc.MySms.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\ref\Nop.Plugin.Misc.MySms.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Nop.Plugin.Misc.MySms.pdb
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Authentication.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Authorization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Components.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Cors.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Hosting.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Http.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Identity.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Localization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Metadata.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Razor.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Routing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.Session.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.SignalR.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.CSharp.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Hosting.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Http.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Identity.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Localization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Logging.Console.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Logging.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.ObjectPool.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Options.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Extensions.WebEncoders.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.JSInterop.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Net.Http.Headers.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.VisualBasic.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.VisualBasic.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Win32.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\Microsoft.Win32.Registry.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\mscorlib.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\netstandard.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.AppContext.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Buffers.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Collections.Concurrent.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Collections.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Collections.Immutable.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Collections.NonGeneric.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Collections.Specialized.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ComponentModel.Annotations.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ComponentModel.DataAnnotations.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ComponentModel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ComponentModel.EventBasedAsync.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ComponentModel.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ComponentModel.TypeConverter.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Configuration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Console.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Data.Common.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Data.DataSetExtensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Data.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.Contracts.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.Debug.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.DiagnosticSource.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.EventLog.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.FileVersionInfo.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.Process.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.StackTrace.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.Tools.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.TraceSource.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Diagnostics.Tracing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Drawing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Drawing.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Dynamic.Runtime.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Formats.Asn1.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Globalization.Calendars.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Globalization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Globalization.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.Compression.Brotli.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.Compression.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.Compression.FileSystem.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.Compression.ZipFile.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.FileSystem.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.FileSystem.DriveInfo.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.FileSystem.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.FileSystem.Watcher.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.IsolatedStorage.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.MemoryMappedFiles.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.Pipelines.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.Pipes.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.IO.UnmanagedMemoryStream.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Linq.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Linq.Expressions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Linq.Parallel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Linq.Queryable.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Memory.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.Http.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.Http.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.HttpListener.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.Mail.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.NameResolution.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.NetworkInformation.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.Ping.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.Requests.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.Security.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.ServicePoint.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.Sockets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.WebClient.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.WebHeaderCollection.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.WebProxy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.WebSockets.Client.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Net.WebSockets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Numerics.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Numerics.Vectors.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ObjectModel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.DispatchProxy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.Emit.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.Emit.ILGeneration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.Emit.Lightweight.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.Metadata.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Reflection.TypeExtensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Resources.Reader.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Resources.ResourceManager.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Resources.Writer.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Handles.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.InteropServices.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Intrinsics.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Loader.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Numerics.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Serialization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Serialization.Formatters.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Serialization.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Serialization.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Runtime.Serialization.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.AccessControl.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Claims.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Cryptography.Algorithms.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Cryptography.Cng.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Cryptography.Csp.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Cryptography.Encoding.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Cryptography.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Cryptography.X509Certificates.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Cryptography.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Permissions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Principal.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.Principal.Windows.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Security.SecureString.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ServiceModel.Web.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ServiceProcess.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Text.Encoding.CodePages.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Text.Encoding.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Text.Encoding.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Text.Encodings.Web.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Text.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Text.RegularExpressions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.Channels.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.Overlapped.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.Tasks.Dataflow.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.Tasks.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.Tasks.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.Tasks.Parallel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.Thread.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.ThreadPool.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Threading.Timer.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Transactions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Transactions.Local.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.ValueTuple.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Web.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Web.HttpUtility.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Windows.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Windows.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.Linq.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.ReaderWriter.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.Serialization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.XDocument.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.XmlDocument.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.XmlSerializer.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.XPath.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\System.Xml.XPath.XDocument.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.Sendinblue\refs\WindowsBase.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\RestSharp.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\logo.png
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\plugin.json
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\Views\Configure.cshtml
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\Views\_ApiSettings.cshtml
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\Views\_ViewImports.cshtml
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\Nop.Plugin.Misc.MySms.deps.json
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\Nop.Plugin.Misc.MySms.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\ref\Nop.Plugin.Misc.MySms.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\Nop.Plugin.Misc.MySms.pdb
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authorization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Cors.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Hosting.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Identity.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Localization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Metadata.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Razor.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Routing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Session.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.SignalR.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.CSharp.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Hosting.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Http.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Identity.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Localization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.Console.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.ObjectPool.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Options.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.WebEncoders.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.JSInterop.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Net.Http.Headers.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.VisualBasic.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.VisualBasic.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Win32.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Win32.Registry.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\mscorlib.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\netstandard.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.AppContext.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Buffers.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.Concurrent.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.Immutable.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.NonGeneric.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.Specialized.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.Annotations.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.DataAnnotations.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.EventBasedAsync.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.TypeConverter.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Configuration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Console.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Core.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Data.Common.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Data.DataSetExtensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Data.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Contracts.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Debug.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.DiagnosticSource.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.EventLog.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.FileVersionInfo.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Process.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.StackTrace.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Tools.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.TraceSource.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Tracing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Drawing.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Drawing.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Dynamic.Runtime.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Formats.Asn1.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Globalization.Calendars.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Globalization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Globalization.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Compression.Brotli.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Compression.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Compression.FileSystem.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Compression.ZipFile.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.FileSystem.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.FileSystem.DriveInfo.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.FileSystem.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.FileSystem.Watcher.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.IsolatedStorage.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.MemoryMappedFiles.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Pipelines.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Pipes.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.UnmanagedMemoryStream.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Linq.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Linq.Expressions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Linq.Parallel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Linq.Queryable.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Memory.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Http.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Http.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.HttpListener.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Mail.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.NameResolution.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.NetworkInformation.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Ping.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Requests.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Security.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.ServicePoint.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Sockets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebClient.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebHeaderCollection.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebProxy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebSockets.Client.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebSockets.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Numerics.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Numerics.Vectors.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ObjectModel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.DispatchProxy.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Emit.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Emit.ILGeneration.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Emit.Lightweight.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Metadata.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.TypeExtensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Resources.Reader.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Resources.ResourceManager.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Resources.Writer.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Handles.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.InteropServices.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Intrinsics.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Loader.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Numerics.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.Formatters.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.AccessControl.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Claims.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Algorithms.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Cng.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Csp.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Encoding.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Primitives.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.X509Certificates.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Permissions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Principal.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Principal.Windows.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.SecureString.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ServiceModel.Web.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ServiceProcess.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Encoding.CodePages.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Encoding.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Encoding.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Encodings.Web.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Json.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.RegularExpressions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Channels.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Overlapped.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Tasks.Dataflow.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Tasks.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Tasks.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Tasks.Parallel.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Thread.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.ThreadPool.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Timer.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Transactions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Transactions.Local.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ValueTuple.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Web.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Web.HttpUtility.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Windows.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Windows.Extensions.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.Linq.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.ReaderWriter.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.Serialization.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XDocument.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XmlDocument.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XmlSerializer.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XPath.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XPath.XDocument.dll
+D:\nopCommerce_4.40.4_Source default\Presentation\Nop.Web\Plugins\Misc.MySms\refs\WindowsBase.dll
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\Nop.Plugin.Misc.MySms.csproj.AssemblyReference.cache
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\Nop.Plugin.Misc.MySms.GeneratedMSBuildEditorConfig.editorconfig
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\Nop.Plugin.Misc.MySms.AssemblyInfoInputs.cache
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\Nop.Plugin.Misc.MySms.AssemblyInfo.cs
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\Nop.Plugin.Misc.MySms.csproj.CoreCompileInputs.cache
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\Nop.Plugin.Misc.MySms.csproj.CopyComplete
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\Nop.Plugin.Misc.MySms.dll
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\ref\Nop.Plugin.Misc.MySms.dll
+D:\nopCommerce_4.40.4_Source default\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Release\net5.0\Nop.Plugin.Misc.MySms.pdb
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\RestSharp.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\logo.png
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\plugin.json
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\Views\Configure.cshtml
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\Views\_ApiSettings.cshtml
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\Views\_ViewImports.cshtml
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\Nop.Plugin.Misc.MySms.deps.json
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\Nop.Plugin.Misc.MySms.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\ref\Nop.Plugin.Misc.MySms.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\Nop.Plugin.Misc.MySms.pdb
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authorization.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Cors.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Hosting.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Identity.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Localization.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Metadata.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Razor.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Routing.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.Session.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.SignalR.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.CSharp.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Hosting.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Http.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Identity.Core.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Localization.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.Console.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.ObjectPool.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Options.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Extensions.WebEncoders.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.JSInterop.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Net.Http.Headers.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.VisualBasic.Core.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.VisualBasic.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Win32.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\Microsoft.Win32.Registry.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\mscorlib.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\netstandard.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.AppContext.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Buffers.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.Concurrent.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.Immutable.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.NonGeneric.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Collections.Specialized.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.Annotations.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.DataAnnotations.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.EventBasedAsync.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ComponentModel.TypeConverter.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Configuration.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Console.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Core.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Data.Common.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Data.DataSetExtensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Data.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Contracts.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Debug.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.DiagnosticSource.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.EventLog.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.FileVersionInfo.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Process.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.StackTrace.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Tools.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.TraceSource.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Diagnostics.Tracing.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Drawing.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Drawing.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Dynamic.Runtime.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Formats.Asn1.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Globalization.Calendars.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Globalization.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Globalization.Extensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Compression.Brotli.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Compression.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Compression.FileSystem.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Compression.ZipFile.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.FileSystem.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.FileSystem.DriveInfo.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.FileSystem.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.FileSystem.Watcher.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.IsolatedStorage.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.MemoryMappedFiles.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Pipelines.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.Pipes.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.IO.UnmanagedMemoryStream.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Linq.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Linq.Expressions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Linq.Parallel.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Linq.Queryable.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Memory.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Http.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Http.Json.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.HttpListener.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Mail.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.NameResolution.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.NetworkInformation.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Ping.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Requests.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Security.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.ServicePoint.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.Sockets.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebClient.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebHeaderCollection.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebProxy.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebSockets.Client.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Net.WebSockets.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Numerics.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Numerics.Vectors.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ObjectModel.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.DispatchProxy.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Emit.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Emit.ILGeneration.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Emit.Lightweight.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Extensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Metadata.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Reflection.TypeExtensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Resources.Reader.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Resources.ResourceManager.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Resources.Writer.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Extensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Handles.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.InteropServices.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Intrinsics.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Loader.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Numerics.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.Formatters.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.Json.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Runtime.Serialization.Xml.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.AccessControl.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Claims.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Algorithms.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Cng.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Csp.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Encoding.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Primitives.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.X509Certificates.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Cryptography.Xml.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Permissions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Principal.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.Principal.Windows.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Security.SecureString.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ServiceModel.Web.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ServiceProcess.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Encoding.CodePages.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Encoding.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Encoding.Extensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Encodings.Web.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.Json.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Text.RegularExpressions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Channels.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Overlapped.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Tasks.Dataflow.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Tasks.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Tasks.Extensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Tasks.Parallel.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Thread.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.ThreadPool.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Threading.Timer.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Transactions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Transactions.Local.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.ValueTuple.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Web.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Web.HttpUtility.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Windows.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Windows.Extensions.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.Linq.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.ReaderWriter.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.Serialization.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XDocument.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XmlDocument.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XmlSerializer.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XPath.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\System.Xml.XPath.XDocument.dll
+D:\syada\Presentation\Nop.Web\Plugins\Misc.MySms\refs\WindowsBase.dll
+D:\syada\Plugins\Nop.Plugin.Misc.MySms\obj\Release\net5.0\Nop.Plugin.Misc.MySms.GeneratedMSBuildEditorConfig.editorconfig
+D:\syada\Plugins\Nop.Plugin.Misc.MySms\obj\Release\net5.0\Nop.Plugin.Misc.MySms.AssemblyInfoInputs.cache
+D:\syada\Plugins\Nop.Plugin.Misc.MySms\obj\Release\net5.0\Nop.Plugin.Misc.MySms.AssemblyInfo.cs
+D:\syada\Plugins\Nop.Plugin.Misc.MySms\obj\Release\net5.0\Nop.Plugin.Misc.MySms.csproj.CoreCompileInputs.cache
+D:\syada\Plugins\Nop.Plugin.Misc.MySms\obj\Release\net5.0\Nop.Plugin.Misc.MySms.csproj.CopyComplete
+D:\syada\Plugins\Nop.Plugin.Misc.MySms\obj\Release\net5.0\Nop.Plugin.Misc.MySms.dll
+D:\syada\Plugins\Nop.Plugin.Misc.MySms\obj\Release\net5.0\ref\Nop.Plugin.Misc.MySms.dll
+D:\syada\Plugins\Nop.Plugin.Misc.MySms\obj\Release\net5.0\Nop.Plugin.Misc.MySms.pdb

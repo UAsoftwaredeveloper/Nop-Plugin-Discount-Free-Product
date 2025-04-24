@@ -1,0 +1,63 @@
+﻿@using Nop.Core
+@using Nop.Services.Helpers
+@using Nop.Web.Framework.UI
+@inject IWorkContext workContext
+@inject IThemeContext themeContext
+@inject IUserAgentHelper userAgentHelper
+@{
+    var supportRtl = (await workContext.GetWorkingLanguageAsync()).Rtl;
+    var themeName = await themeContext.GetWorkingThemeNameAsync();
+    if (userAgentHelper.IsMobileDevice())
+    {
+
+        Html.AppendCssFileParts("~/lib/ClientM/css/magnific-popup.css");
+        Html.AppendCssFileParts("~/lib/ClientM/css/lineicons.min.css");
+        Html.AppendCssFileParts("~/lib/ClientM/css/font-awesome.min.css");
+        Html.AppendCssFileParts("~/lib/ClientM/css/owl.carousel.min.css");
+        Html.AppendCssFileParts("~/lib/ClientM/css/animate.css");
+
+
+    }
+    else
+    {
+
+        Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Client/vendor/nouislider/nouislider.min.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Client/vendor/owl-carousel/owl.carousel.min.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Client/vendor/magnific-popup/magnific-popup.min.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Client/vendor/animate/animate.min.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Client/vendor/fontawesome-free/css/all.min.css");
+    }
+
+    Html.AppendCssFileParts($"~/lib_npm/jquery-ui-dist/jquery-ui.theme.min.css");
+    Html.AppendCssFileParts($"~/lib_npm/jquery-ui-dist/jquery-ui.structure.min.css");
+
+    //add main CSS file
+    if (supportRtl)
+    {
+        Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/styles.rtl.css");
+    }
+    else
+    {
+        //Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/market2.min.css");
+        if (userAgentHelper.IsMobileDevice())
+        {
+            Html.AppendCssFileParts("~/lib/ClientM/style.css");
+            Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/styles.css");
+            Html.AppendCssFileParts($"~/lib_npm/jquery-ui-dist/jquery-ui.min.css");
+
+            Html.AppendCssFileParts("~/lib/ClientM/css/bootstrap.min.css");
+
+        }
+        else
+        {
+
+            Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/styles.css");
+            Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Client/css/market2.min.css");
+            Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Client/vendor/fontawesome-free/css/all.min.css");
+            Html.AppendCssFileParts($"~/lib_npm/jquery-ui-dist/jquery-ui.min.css");
+        }
+    }
+
+    //add jQuery UI css file
+
+}                             

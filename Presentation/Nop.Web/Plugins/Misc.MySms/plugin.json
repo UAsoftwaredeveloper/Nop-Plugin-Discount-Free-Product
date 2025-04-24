@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Misc",
+  "FriendlyName": "MySms",
+  "SystemName": "Misc.MySms",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.40" ],
+  "Author": "nopCommerce team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Misc.MySms.dll",
+  "Description": "This plugin allows to integrate with MySms service"
+}

@@ -1,0 +1,65 @@
+﻿@model ShoppingCartModel.GiftCardBoxModel
+@inject Nop.Services.Helpers.IUserAgentHelper userAgent
+@if (Model.Display)
+{
+    if (userAgent.IsMobileDevice())
+    {
+        <div class="card coupon-card mb-3">
+            <div class="card-body">
+                <div class="apply-coupon">
+                    <h6 class="mb-0">
+                        @T("ShoppingCart.GiftCardCouponCode")
+                        <span class="hint">
+                            @T("ShoppingCart.GiftCardCouponCode.Tooltip")
+                        </span>
+                    </h6>
+                    <div class="coupon-form">
+
+                        <input name="giftcardcouponcode" id="giftcardcouponcode" class="form-control" type="text" placeholder="GIFTCOUPON" />
+                        <button class="btn btn-success" type="submit" name="applygiftcardcouponcode" id="applygiftcardcouponcode">
+                            @T("ShoppingCart.GiftCardCouponCode.Button")
+                        </button>
+
+                        @if (!string.IsNullOrEmpty(Model.Message))
+                        {
+                            <div class="@(Model.IsApplied ? "message-success" : "message-failure")">
+                                @Model.Message
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="giftcard-box">
+            <div class="title">
+                <strong>@T("ShoppingCart.GiftCardCouponCode")</strong>
+            </div>
+            <div class="hint">@T("ShoppingCart.GiftCardCouponCode.Tooltip")</div>
+            <div class="coupon-code">
+                <input name="giftcardcouponcode" id="giftcardcouponcode" type="text" class="gift-card-coupon-code" aria-label="@T("ShoppingCart.GiftCardCouponCode.Label")" />
+
+                <button type="submit" name="applygiftcardcouponcode" id="applygiftcardcouponcode" class="button-2 apply-gift-card-coupon-code-button">@T("ShoppingCart.GiftCardCouponCode.Button")</button>
+            </div>
+            @if (!string.IsNullOrEmpty(Model.Message))
+            {
+                <div class="@(Model.IsApplied ? "message-success" : "message-failure")">
+                    @Model.Message
+                </div>
+            }
+        </div>
+    }
+    <script asp-location="Footer">
+        $(document).ready(function () {
+            $('#giftcardcouponcode').on('keydown', function (event) {
+                if (event.keyCode == 13) {
+                    $('#applygiftcardcouponcode').trigger("click");
+                    return false;
+                }
+            });
+        });
+    </script>
+}

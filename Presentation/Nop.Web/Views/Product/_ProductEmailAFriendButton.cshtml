@@ -1,0 +1,21 @@
+﻿@model ProductDetailsModel
+@inject Nop.Services.Helpers.IUserAgentHelper userAgent
+@if (Model.EmailAFriendEnabled)
+{
+    if (userAgent.IsMobileDevice())
+    {
+        <div class="selection-panel bg-white mb-3 py-3">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="email-a-friend">
+                    <button type="button" class="button-2 email-a-friend-button" onclick="setLocation('@Url.RouteUrl("ProductEmailAFriend", new { productId = Model.Id })')">@T("Products.EmailAFriend")</button>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="email-a-friend">
+            <button type="button" class="button-2 email-a-friend-button" onclick="setLocation('@Url.RouteUrl("ProductEmailAFriend", new { productId = Model.Id })')">@T("Products.EmailAFriend")</button>
+        </div>
+    }
+}

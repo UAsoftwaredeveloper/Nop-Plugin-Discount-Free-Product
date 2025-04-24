@@ -1,0 +1,318 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Copyright>Copyright © Nop Solutions, Ltd</Copyright>
+    <Company>Nop Solutions, Ltd</Company>
+    <Authors>Nop Solutions, Ltd</Authors>
+    <Version>4.4.0.0</Version>
+    <Description>Nop.Web is also an MVC web application project, a presentation layer for public store and admin area.</Description>
+    <PackageLicenseUrl>https://www.nopcommerce.com/license</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <!--When true, compiles and emits the Razor assembly as part of publishing the project-->
+    <RazorCompileOnPublish>false</RazorCompileOnPublish>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Nop.Core\Nop.Core.csproj" />
+    <ProjectReference Include="..\..\Libraries\Nop.Data\Nop.Data.csproj" />
+    <ProjectReference Include="..\..\Libraries\Nop.Services\Nop.Services.csproj" />
+    <ProjectReference Include="..\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- We copy the entire \App_Data directory. But we ignore JSON files and data protection keys  -->
+    <Content Include="App_Data\**" CopyToPublishDirectory="PreserveNewest" Exclude="App_Data\*.json" />
+    <Content Remove="App_Data\*.json" />
+    <Content Update="App_Data\DataProtectionKeys\*.xml" CopyToPublishDirectory="Never" />
+
+    <Compile Remove="Plugins\**;Themes\**" />
+    <Content Remove="Plugins\**;Themes\**" />
+    <EmbeddedResource Remove="Plugins\**;Themes\**" />
+    <None Remove="Plugins\**;Themes\**" />
+
+    <Content Include="Plugins\bin\placeholder.txt" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="Plugins\**" CopyToPublishDirectory="PreserveNewest" Exclude="Plugins\**\runtimes\**;Plugins\**\ref\**;Plugins\**\*.pdb" />
+
+    <Content Include="Themes\**" CopyToPublishDirectory="PreserveNewest" Exclude="Themes\**\*.config;Themes\**\*.cshtml;Themes\**\*.json" />
+    <None Include="Themes\**" CopyToPublishDirectory="PreserveNewest" />
+
+    <!-- We copy the \Logs directory -->
+    <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Remove="Themes\DefaultClean\Content\css\market2.min.css" />
+
+    <None Update="Areas\Admin\sitemap.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- This setting fixes the problem caused by this update in the websdk in vs2019
+    https://github.com/aspnet/websdk/commit/7e6b193ddcf1eec5c0a88a9748c626775555273e#diff-edf5a48ed0d4aa5a4289cb857bf46a04
+    Therefore, we restore the standard configuration behavior (there was no copy to the output directory) 
+    in order to avoid the "Duplicate dll" error during publication. 
+    We can also use “ExcludeConfigFilesFromBuildOutput” according to https://github.com/aspnet/AspNetCore/issues/14017 -->
+    <Content Update="**\*.config;**\*.json" CopyToOutputDirectory="Never" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\ClientM\common\filter.php" />
+    <None Include="wwwroot\lib\ClientM\common\footer.php" />
+    <None Include="wwwroot\lib\ClientM\common\header - Copy new.php" />
+    <None Include="wwwroot\lib\ClientM\common\header - Copy.php" />
+    <None Include="wwwroot\lib\ClientM\common\header.php" />
+    <None Include="wwwroot\lib\ClientM\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\lib\ClientM\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\lib\ClientM\fonts\LineIcons.svg" />
+    <None Include="wwwroot\lib\ClientM\fonts\LineIcons.woff2" />
+    <None Include="wwwroot\lib\ClientM\js\active.js" />
+    <None Include="wwwroot\lib\ClientM\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\ClientM\js\dark-mode-switch.js" />
+    <None Include="wwwroot\lib\ClientM\js\jquery.countdown.min.js" />
+    <None Include="wwwroot\lib\ClientM\js\jquery.counterup.min.js" />
+    <None Include="wwwroot\lib\ClientM\js\jquery.easing.min.js" />
+    <None Include="wwwroot\lib\ClientM\js\jquery.magnific-popup.min.js" />
+    <None Include="wwwroot\lib\ClientM\js\jquery.min.js" />
+    <None Include="wwwroot\lib\ClientM\js\jquery.passwordstrength.js" />
+    <None Include="wwwroot\lib\ClientM\js\no-internet.js" />
+    <None Include="wwwroot\lib\ClientM\js\otp-timer.js" />
+    <None Include="wwwroot\lib\ClientM\js\owl.carousel.min.js" />
+    <None Include="wwwroot\lib\ClientM\js\pwa.js" />
+    <None Include="wwwroot\lib\ClientM\js\waypoints.min.js" />
+    <None Include="wwwroot\lib\Client\css\demo1.min.css" />
+    <None Include="wwwroot\lib\Client\css\market1.min.css" />
+    <None Include="wwwroot\lib\Client\css\market2.min.css" />
+    <None Include="wwwroot\lib\Client\css\style.min.css" />
+    <None Include="wwwroot\lib\Client\fonts\riode115b.eot" />
+    <None Include="wwwroot\lib\Client\fonts\riode115b.html" />
+    <None Include="wwwroot\lib\Client\fonts\riode115b.ttf" />
+    <None Include="wwwroot\lib\Client\fonts\riode115b.woff" />
+    <None Include="wwwroot\lib\Client\images\aboutus.jpg" />
+    <None Include="wwwroot\lib\Client\images\bg-head.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\1.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\10.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\11.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\12.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\2.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\3.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\4.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\5.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\6.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\7.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\8.jpg" />
+    <None Include="wwwroot\lib\Client\images\br\9.jpg" />
+    <None Include="wwwroot\lib\Client\images\b\1.png" />
+    <None Include="wwwroot\lib\Client\images\b\2.png" />
+    <None Include="wwwroot\lib\Client\images\b\3.png" />
+    <None Include="wwwroot\lib\Client\images\b\4.png" />
+    <None Include="wwwroot\lib\Client\images\b\5.png" />
+    <None Include="wwwroot\lib\Client\images\b\6.png" />
+    <None Include="wwwroot\lib\Client\images\b\7.png" />
+    <None Include="wwwroot\lib\Client\images\b\8.png" />
+    <None Include="wwwroot\lib\Client\images\cart.jpg" />
+    <None Include="wwwroot\lib\Client\images\category1.jpg" />
+    <None Include="wwwroot\lib\Client\images\category2.jpg" />
+    <None Include="wwwroot\lib\Client\images\category3.jpg" />
+    <None Include="wwwroot\lib\Client\images\category4.jpg" />
+    <None Include="wwwroot\lib\Client\images\cta\1.jpg" />
+    <None Include="wwwroot\lib\Client\images\cta\2.jpg" />
+    <None Include="wwwroot\lib\Client\images\cta\3.jpg" />
+    <None Include="wwwroot\lib\Client\images\cta\social-bg-blue2.jpg" />
+    <None Include="wwwroot\lib\Client\images\d1.jpg" />
+    <None Include="wwwroot\lib\Client\images\d2.jpg" />
+    <None Include="wwwroot\lib\Client\images\d3.jpg" />
+    <None Include="wwwroot\lib\Client\images\d4.jpg" />
+    <None Include="wwwroot\lib\Client\images\elements.png" />
+    <None Include="wwwroot\lib\Client\images\extracat\a1.jpg" />
+    <None Include="wwwroot\lib\Client\images\extracat\a2.jpg" />
+    <None Include="wwwroot\lib\Client\images\extracat\a3.jpg" />
+    <None Include="wwwroot\lib\Client\images\extracat\a4.jpg" />
+    <None Include="wwwroot\lib\Client\images\extracat\a5.jpg" />
+    <None Include="wwwroot\lib\Client\images\extracat\a6.jpg" />
+    <None Include="wwwroot\lib\Client\images\extracat\a7.jpg" />
+    <None Include="wwwroot\lib\Client\images\extracat\a8.jpg" />
+    <None Include="wwwroot\lib\Client\images\fav.png" />
+    <None Include="wwwroot\lib\Client\images\focus1.jpg" />
+    <None Include="wwwroot\lib\Client\images\focus2.jpg" />
+    <None Include="wwwroot\lib\Client\images\focus3.jpg" />
+    <None Include="wwwroot\lib\Client\images\f\1.jpg" />
+    <None Include="wwwroot\lib\Client\images\f\2.jpg" />
+    <None Include="wwwroot\lib\Client\images\f\3.jpg" />
+    <None Include="wwwroot\lib\Client\images\f\4.jpg" />
+    <None Include="wwwroot\lib\Client\images\f\5.jpg" />
+    <None Include="wwwroot\lib\Client\images\f\6.jpg" />
+    <None Include="wwwroot\lib\Client\images\f\7.jpg" />
+    <None Include="wwwroot\lib\Client\images\f\8.jpg" />
+    <None Include="wwwroot\lib\Client\images\inner-banner.jpg" />
+    <None Include="wwwroot\lib\Client\images\logo.png" />
+    <None Include="wwwroot\lib\Client\images\menu1.jpg" />
+    <None Include="wwwroot\lib\Client\images\monsoon.jpg" />
+    <None Include="wwwroot\lib\Client\images\n1.png" />
+    <None Include="wwwroot\lib\Client\images\n2.png" />
+    <None Include="wwwroot\lib\Client\images\n3.png" />
+    <None Include="wwwroot\lib\Client\images\n4.png" />
+    <None Include="wwwroot\lib\Client\images\newsletter-popup.jpg" />
+    <None Include="wwwroot\lib\Client\images\nn.jpg" />
+    <None Include="wwwroot\lib\Client\images\offers\1.jpg" />
+    <None Include="wwwroot\lib\Client\images\offers\2.jpg" />
+    <None Include="wwwroot\lib\Client\images\offers\3.jpg" />
+    <None Include="wwwroot\lib\Client\images\offers\4.jpg" />
+    <None Include="wwwroot\lib\Client\images\offers\5.jpg" />
+    <None Include="wwwroot\lib\Client\images\offers\6.jpg" />
+    <None Include="wwwroot\lib\Client\images\offers\7.jpg" />
+    <None Include="wwwroot\lib\Client\images\offers\8.jpg" />
+    <None Include="wwwroot\lib\Client\images\p1.jpg" />
+    <None Include="wwwroot\lib\Client\images\payment.png" />
+    <None Include="wwwroot\lib\Client\images\pro1.jpg" />
+    <None Include="wwwroot\lib\Client\images\pro1.png" />
+    <None Include="wwwroot\lib\Client\images\pro11.png" />
+    <None Include="wwwroot\lib\Client\images\pro2.jpg" />
+    <None Include="wwwroot\lib\Client\images\pro2.png" />
+    <None Include="wwwroot\lib\Client\images\pro3.jpg" />
+    <None Include="wwwroot\lib\Client\images\pro3.png" />
+    <None Include="wwwroot\lib\Client\images\pro4.jpg" />
+    <None Include="wwwroot\lib\Client\images\pro4.png" />
+    <None Include="wwwroot\lib\Client\images\pro5.jpg" />
+    <None Include="wwwroot\lib\Client\images\pro5.png" />
+    <None Include="wwwroot\lib\Client\images\p\1.jpg" />
+    <None Include="wwwroot\lib\Client\images\p\2.jpg" />
+    <None Include="wwwroot\lib\Client\images\p\3.jpg" />
+    <None Include="wwwroot\lib\Client\images\p\4.jpg" />
+    <None Include="wwwroot\lib\Client\images\p\5.jpg" />
+    <None Include="wwwroot\lib\Client\images\p\6.jpg" />
+    <None Include="wwwroot\lib\Client\images\p\7.jpg" />
+    <None Include="wwwroot\lib\Client\images\p\8.jpg" />
+    <None Include="wwwroot\lib\Client\images\sideimg.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\1.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\2.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\3.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\4.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\5.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\6.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\7.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\8.jpg" />
+    <None Include="wwwroot\lib\Client\images\slider\9.jpg" />
+    <None Include="wwwroot\lib\Client\images\store.jpg" />
+    <None Include="wwwroot\lib\Client\images\wcoffer.png" />
+    <None Include="wwwroot\lib\Client\images\wcoffer1.png" />
+    <None Include="wwwroot\lib\Client\images\webbanner.jpg" />
+    <None Include="wwwroot\lib\Client\js\main.min-old.js" />
+    <None Include="wwwroot\lib\Client\js\main.min.js" />
+    <None Include="wwwroot\lib\Client\js\webfont.js" />
+    <None Include="wwwroot\lib\Client\vendor\animate\animate.min.css" />
+    <None Include="wwwroot\lib\Client\vendor\brandpopup\script.js" />
+    <None Include="wwwroot\lib\Client\vendor\brandpopup\style.css" />
+    <None Include="wwwroot\lib\Client\vendor\elevatezoom\jquery.elevatezoom.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\css\all.min.css" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-brands-400.eot" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-brands-400.woff" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-brands-400d41d.eot" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-regular-400.eot" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-regular-400.woff" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-regular-400d41d.eot" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-solid-900.eot" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-solid-900.woff" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\lib\Client\vendor\fontawesome-free\webfonts\fa-solid-900d41d.eot" />
+    <None Include="wwwroot\lib\Client\vendor\imagesloaded\imagesloaded.pkgd.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\isotope\isotope.pkgd.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\jquery.count-to\jquery.count-to.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\jquery.countdown\jquery.countdown.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\jquery.plugin\jquery.plugin.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\jquery\jquery.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\magnific-popup\jquery.magnific-popup.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\magnific-popup\magnific-popup.min.css" />
+    <None Include="wwwroot\lib\Client\vendor\nouislider\nouislider.min.css" />
+    <None Include="wwwroot\lib\Client\vendor\nouislider\nouislider.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\owl-carousel\owl.carousel.min.css" />
+    <None Include="wwwroot\lib\Client\vendor\owl-carousel\owl.carousel.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\owl-carousel\owl.video.play.html" />
+    <None Include="wwwroot\lib\Client\vendor\parallax\parallax.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\photoswipe\default-skin\default-skin.min.css" />
+    <None Include="wwwroot\lib\Client\vendor\photoswipe\default-skin\default-skin.png" />
+    <None Include="wwwroot\lib\Client\vendor\photoswipe\default-skin\default-skin.svg" />
+    <None Include="wwwroot\lib\Client\vendor\photoswipe\default-skin\preloader.gif" />
+    <None Include="wwwroot\lib\Client\vendor\photoswipe\photoswipe-ui-default.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\photoswipe\photoswipe.min.css" />
+    <None Include="wwwroot\lib\Client\vendor\photoswipe\photoswipe.min.js" />
+    <None Include="wwwroot\lib\Client\vendor\sticky\sticky.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <!-- This target execute after "Build" target.
+    We use it to clean up folder with plugins from unnecessary and obsolete libraries. -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <ItemGroup>
+      <!-- Get plugin description files to get plugin paths -->
+      <PluginsDescription Include="$(MSBuildProjectDirectory)\Plugins\**\plugin.json;" />
+      <!-- Get paths for all plugins -->
+      <PluginsFolders Include="@(PluginsDescription->'%(relativedir)')" />
+
+      <!-- Get all the libraries from the shadow copy folder to remove them,
+        because depending on the settings, this may not happen when the application is starting,
+        but this can lead to unpredictable results during debugging of the project. -->
+      <ShadowCopiesLibraries Include="$(MSBuildProjectDirectory)\Plugins\bin\*.*" Exclude="$(MSBuildProjectDirectory)\Plugins\bin\placeholder.txt" />
+
+      <!-- Get paths for ClearPluginAssemblies project -->
+      <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+
+    </ItemGroup>
+    <PropertyGroup>
+      <PluginsFolders>@(PluginsFolders)</PluginsFolders>
+    </PropertyGroup>
+    <!-- Delete libraries from the shadow copy folder -->
+    <Delete Files="@(ShadowCopiesLibraries)" />
+    <!-- When .NET Core builds a project, it copies all referenced libraries to the output folder.
+      For plugins it creates too many unnecessary files that just take up space.
+      At the moment you can't disable this behavior. That's why we have to manually delete all unnecessary libraries from plugin output directories. -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(PluginsFolders)" Targets="NopClear" />
+
+  </Target>
+
+  <PropertyGroup>
+    <!--The common language runtime (CLR) supports two types of garbage collection:
+      workstation garbage collection, which is available on all systems, and server garbage collection,
+      which is available on multiprocessor systems.
+      
+      For single-processor computers, the default workstation garbage collection should be the fastest option.
+      Either workstation or server can be used for two-processor computers.
+      Server garbage collection should be the fastest option for more than two processors.
+      
+      More details about GC you can see here: https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals-->
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <!--In workstation or server garbage collection, you can enable concurrent garbage collection,
+      which enables threads to run concurrently with a dedicated thread that performs the garbage
+      collection for most of the duration of the collection.
+      
+      Concurrent garbage collection enables interactive applications to be more responsive by
+      minimizing pauses for a collection. Managed threads can continue to run most of the time while
+      the concurrent garbage collection thread is running. This results in shorter pauses while
+      a garbage collection is occurring.
+      
+      To improve performance when several processes are running, disable concurrent garbage collection.
+      
+      More details here: https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals#concurrent-garbage-collection-->
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+  </PropertyGroup>
+
+</Project>

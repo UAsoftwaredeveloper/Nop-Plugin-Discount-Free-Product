@@ -1,0 +1,48 @@
+﻿@using Nop.Web.Factories
+@using Nop.Services.Media
+@using Nop.Core.Domain.Media
+@inject ICatalogModelFactory _categoryModelfactory
+@inject IPictureService _pictureService
+@inject MediaSettings mediaSetting
+@{
+    List<ManufacturerModel> manufacturerModels = new List<ManufacturerModel>();
+    manufacturerModels = _categoryModelfactory.PrepareManufacturerAllModelsAsync().Result.Where(x => x.DisplayOnhomepage == true).ToList();
+
+}
+@if (manufacturerModels.Count() > 0)
+{
+    <!-- FETURED BRAND-->
+    <div class="top-products-area pt-3">
+        <div class="container">
+            <h6 class="me-1 d-flex align-items-center">FETURED BRAND</h6>
+            <div class="row g-3">
+                @foreach (var item in manufacturerModels)
+                {
+                    Picture _;
+                    var picture = await _pictureService.GetPictureByIdAsync(item.PictureId);
+                    string fullSizeImageUrl, imageUrl;
+
+                    (fullSizeImageUrl, picture) = await _pictureService.GetPictureUrlAsync(picture);
+                    (imageUrl, _) = await _pictureService.GetPictureUrlAsync(picture, mediaSetting.ManufacturerThumbPictureSize);
+
+                    var pictureModel = new PictureModel
+                    {
+                        FullSizeImageUrl = fullSizeImageUrl,
+                        ImageUrl = imageUrl
+                    };
+                    <div class="col-6 col-md-4">
+                        <div class="card blog-card list-card">
+                            <a href="@Url.RouteUrl("Manufacturer", new { SeName = item.SeName })">
+                                <img src="@pictureModel.ImageUrl" alt="@pictureModel.AlternateText" title="@pictureModel.Title" />
+                            </a>
+                          
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>
+
+
+}

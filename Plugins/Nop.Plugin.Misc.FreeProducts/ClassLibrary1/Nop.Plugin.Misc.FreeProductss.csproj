@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Copyright>Copyright © WebMania, Ltd</Copyright>
+    <RepositoryUrl>https://www.nopcommerce.com/</RepositoryUrl>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
+    <RepositoryType>https://github.com/nopSolutions/nopCommerce</RepositoryType>
+    <PackageTags>git</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Nop.Plugin.DiscountRules.FreeProduct\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

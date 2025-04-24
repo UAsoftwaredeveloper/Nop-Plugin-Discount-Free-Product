@@ -1,0 +1,19 @@
+﻿@model LogoModel
+@using Nop.Services.Helpers
+@inject IUserAgentHelper userAgent
+@if (userAgent.IsMobileDevice())
+{
+    <div class="logo-wrapper" style="width:150px">
+        <a href="@Url.RouteUrl("Homepage")">
+            <img title="@Model.StoreName" alt="@Model.StoreName" src="https://www.zealous-keldysh.101-53-145-38.plesk.page/images/thumbs/000/0000085_logo%20(1).png">
+        </a>
+    </div>
+}
+else
+{
+
+    <a href="@Url.RouteUrl("Homepage")">
+        <img title="" class="logo" alt="@Model.StoreName" src="https://www.zealous-keldysh.101-53-145-38.plesk.page/images/thumbs/000/0000085_logo%20(1).png">
+    </a>
+
+}

@@ -1,0 +1,83 @@
+﻿@using Nop.Plugin.Misc.FreeProduct.Models
+@using Nop.Plugin.Misc.FreeProduct
+@model IEnumerable<FreeProductRequirementModel>
+@using Nop.Plugin.Misc.FreeProduct.Services
+@inject IFreeProductManager freeDiscountManager
+@{
+    Layout = "_ConfigurePlugin";
+    var discounts = await freeDiscountManager.DiscountList();
+    var products = await freeDiscountManager.ProducrList();
+    Html.SetActiveMenuItemSystemName(FreeProductDefaults.SystemName);
+}
+<div class="cards-group">
+    <div class="card card-default">
+        <div class="row">
+            <div class="col-md-9"></div>
+            <div class="col-md-3">
+                <a href="@Url.Action("Add")" class="alert alert-info pull-right">
+                    <i class="fa fa-plus"></i> Add New Free Products
+                </a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="container">
+
+                <div class="row table-responsive">
+
+                    <table class="table table-bordered" id="FreeProducts">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Serial No.
+                                </th>
+                                <th>
+                                    Product Title
+                                </th>
+                                <th>
+                                    Discount Name
+                                </th>
+                                <th>
+                                    Published
+                                </th>
+                                <th>
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{ int count = 0;}
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                string productName = products.Where(x => x.Id == item.ProductId).Select(x => x.Name).FirstOrDefault();
+                                string discountName = discounts.Where(x => x.Id == item.DiscountId).Select(x => x.Name).FirstOrDefault();
+                                <tr>
+                                    <td>@count</td>
+                                    <td>
+                                        <em><a asp-controller="Product" asp-action="Edit" asp-route-id="@item.ProductId">@productName</a></em>
+                                    </td>
+                                    <td>
+                                        @discountName
+                                    </td>
+                                    <td>
+                                        @item.Published
+                                    </td>
+                                    <td>
+                                        <a asp-controller="FreeProducts" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
+                                        <a asp-controller="FreeProducts" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#FreeProducts").dataTable();
+    })
+</script>

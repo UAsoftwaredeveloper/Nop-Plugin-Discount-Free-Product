@@ -1,0 +1,165 @@
+﻿@using Nop.Services.Discounts
+@using Nop.Services.Media
+@using Nop.Core.Domain.Media
+@using Nop.Core.Domain.Discounts
+@using Nop.Services.Seo
+@inject IDiscountService _discountService
+@inject IPictureService _pictureService
+@inject MediaSettings mediaSetting
+@inject IUrlRecordService _urlRecordService
+@inject Nop.Services.Helpers.IUserAgentHelper userAgent
+
+@{
+    IList<Discount> discount = _discountService.GetAllDiscountsAsync(discountType: DiscountType.AssignedToManufacturers, endDateUtc: DateTime.Now).Result.Where(x => x.DisplayOnHomePage).ToList();
+    List<Discount> discountsOther = discount.ToList();
+    List<Discount> discountsBestDeal = discount.Where(x => x.IsBestDeal && !x.IsHotDeal).ToList();
+    List<Discount> discountsHotDeal = discount.Where(x => x.IsHotDeal && !x.IsBestDeal).ToList();
+}
+<!--Best Deals-->
+@if (discountsBestDeal.Count > 0)
+{<!--flash sale new-->
+    <div class="container">
+        <div class="flashnew-slide owl-carousel">
+            <div class="col-12">
+                <div class="card collection-card text-center">
+                    <a class="shadow-sm" href="products.php"><img src="img/fs/0.jpg" alt=""></a>
+                </div>
+            </div>
+            @foreach (var item in discountsBestDeal)
+            {
+                string SeName = string.Empty;
+                int EntityId = 0;
+                string EntityName = string.Empty;
+                (EntityId, EntityName) = _discountService.GetEntityIdByDiscountIdAsync(discountId: item.Id).Result;
+                SeName = _urlRecordService.GetActiveSlugAsync(EntityId, EntityName, 0).Result;
+                Picture _;
+                var picture = await _pictureService.GetPictureByIdAsync(item.PictureId);
+                string fullSizeImageUrl, imageUrl;
+
+                (fullSizeImageUrl, picture) = await _pictureService.GetPictureUrlAsync(picture);
+                (imageUrl, _) = await _pictureService.GetPictureUrlAsync(picture, mediaSetting.ManufacturerThumbPictureSize);
+
+                var pictureModel = new PictureModel
+                {
+                    FullSizeImageUrl = fullSizeImageUrl,
+                    ImageUrl = imageUrl
+                };
+                <div class="col-12">
+                    <div class="card collection-card text-center">
+                        <a class="shadow-sm" href="@Url.RouteUrl(new { SeName = SeName })">
+                            <img src="@pictureModel.ImageUrl" alt="@pictureModel.AlternateText" title="@pictureModel.Title" />
+                        </a>
+                    </div>
+                </div>
+
+            }
+
+
+        </div>
+        <div class="pb-3"></div>
+    </div>
+
+}
+<!--Featured Product-->
+@await Component.InvokeAsync("HomepageProducts")
+<!--wc offer-->
+@if (discountsOther.Count > 0)
+{
+    <div class="top-products-area pt-3">
+        <div class="container">
+            <h6 class="me-1 d-flex align-items-center">OFFERS</h6>
+            <div class="row g-3">
+
+                @foreach (var item in discountsOther)
+                {
+                    string SeName = string.Empty;
+                    int EntityId = 0;
+                    string EntityName = string.Empty;
+                    (EntityId, EntityName) = _discountService.GetEntityIdByDiscountIdAsync(discountId: item.Id).Result;
+                    SeName = _urlRecordService.GetActiveSlugAsync(EntityId, EntityName, 0).Result; Picture _;
+                    var picture = await _pictureService.GetPictureByIdAsync(item.PictureId);
+                    string fullSizeImageUrl, imageUrl;
+
+                    (fullSizeImageUrl, picture) = await _pictureService.GetPictureUrlAsync(picture);
+                    (imageUrl, _) = await _pictureService.GetPictureUrlAsync(picture, mediaSetting.ManufacturerThumbPictureSize);
+
+                    var pictureModel = new PictureModel
+                    {
+                        FullSizeImageUrl = fullSizeImageUrl,
+                        ImageUrl = imageUrl
+                    };
+
+                    <div class="col-12 col-md-6">
+                        <div class="card blog-card list-card">
+                            <a href="@Url.RouteUrl(new { SeName = SeName })">
+                                <img src="@pictureModel.ImageUrl" alt="@pictureModel.AlternateText" title="@pictureModel.Title" class="img-thumbnail">
+                            </a>
+                        </div>
+                    </div>
+                }
+
+
+            </div>
+        </div>
+    </div>
+}
+
+<!--BEAUTY BONANZA-->
+<div class="cta-area pt-3">
+    <div class="container">
+        <div class="cta-text p-4 p-lg-5" style="background-image: url(/lib/ClientM/img/bg1.jpg)">
+            <h4 class="text-white">BEAUTY BONANZA</h4>
+            <p class="text-white">GET YOUR DAILY DOSE OF AMAZING DEALS</p>
+            <a class="btn btn-warning" href="/All-Products">Shop Today</a>
+        </div>
+    </div>
+</div>
+
+<!--Best seller wc-->
+
+@await Component.InvokeAsync("HomepageBestSellers")
+
+
+<!--HOT DEAL-->
+@if (discountsHotDeal.Count > 0)
+{<!-- Hot Deals-->
+    <div class="container">
+        <div class="section-heading d-flex align-items-center justify-content-between pt-3">
+            <h6>Hot Deals</h6>
+            
+        </div>
+        <div class="collection-slide owl-carousel">
+
+            @foreach (var item in discountsHotDeal)
+            {
+                string SeName = string.Empty;
+                int EntityId = 0;
+                string EntityName = string.Empty;
+                (EntityId, EntityName) = _discountService.GetEntityIdByDiscountIdAsync(discountId: item.Id).Result;
+                SeName = _urlRecordService.GetActiveSlugAsync(EntityId, EntityName, 0).Result;
+                Picture _;
+                var picture = await _pictureService.GetPictureByIdAsync(item.PictureId);
+                string fullSizeImageUrl, imageUrl;
+
+                (fullSizeImageUrl, picture) = await _pictureService.GetPictureUrlAsync(picture);
+                (imageUrl, _) = await _pictureService.GetPictureUrlAsync(picture, mediaSetting.ManufacturerThumbPictureSize);
+
+                var pictureModel = new PictureModel
+                {
+                    FullSizeImageUrl = fullSizeImageUrl,
+                    ImageUrl = imageUrl
+                };
+
+
+                <div class="card collection-card">
+                    <a href="@Url.RouteUrl(new { SeName = SeName })">
+                        <img src="@pictureModel.ImageUrl" alt="@pictureModel.AlternateText" title="@pictureModel.Title" />
+                    </a>
+                </div>
+            }
+
+        </div>
+        <div class="pb-3"></div>
+    </div>
+
+}

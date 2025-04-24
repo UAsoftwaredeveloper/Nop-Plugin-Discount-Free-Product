@@ -1,0 +1,116 @@
+﻿@model TopMenuModel
+
+@{var rootCategoriesResponsive = Model.Categories.ToList();
+    //name it "Categories" if we have only categories. Otherwise, "Menu"
+    var responsiveMenuTitle = Model.HasOnlyCategories ? T("Categories") : T("Menu");
+}
+@functions {
+    async Task CategoryLine(TopMenuModel.CategoryLineModel lineModel)
+    {
+        var subCategories = lineModel.ResponsiveMobileMenu ?
+                   //responsive (all categories)
+                   lineModel.Category.SubCategories :
+                   //standard design (only categories with "IncludeInTopMenu")
+                   lineModel.Category.SubCategories.Where(x => x.IncludeInTopMenu).ToList();
+
+
+        //subcategories
+
+        if (subCategories.Count > 0)
+        {
+            <li class="suha-dropdown-menu">
+                <a href="@Url.RouteUrl("Category", new { SeName = lineModel.Category.SeName })">
+                    @lineModel.Category.Name
+                    @if (lineModel.Category.NumberOfProducts.HasValue)
+                    {
+                        <text> </text>@T("Categories.TotalProducts", lineModel.Category.NumberOfProducts.Value)
+                    }
+                </a>
+
+                <ul>
+                    @foreach (var subCategory in subCategories)
+                    {
+                        var categoryLineModel = new TopMenuModel.CategoryLineModel
+                        {
+                            Category = subCategory,
+                            Level = lineModel.Level + 1,
+                            ResponsiveMobileMenu = lineModel.ResponsiveMobileMenu
+                        };
+                        await CategoryLine(categoryLineModel);
+                    }
+                </ul>
+            </li>
+
+        }
+        else
+        {
+            <li>
+                <a href="@Url.RouteUrl("Category", new { SeName = lineModel.Category.SeName })">
+                    @lineModel.Category.Name
+                    @if (lineModel.Category.NumberOfProducts.HasValue)
+                    {
+                        <text> </text>@T("Categories.TotalProducts", lineModel.Category.NumberOfProducts.Value)
+                    }
+                </a>
+            </li>
+        }
+    }
+}
+<div class="offcanvas offcanvas-start suha-offcanvas-wrap" tabindex="-1" id="suhaOffcanvas" aria-labelledby="suhaOffcanvasLabel">
+    <button class="btn-close btn-close-white text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="offcanvas-body">
+
+        <div class="sidenav-profile"><img src="img/logom.png" alt="" width="200"></div>
+
+        <ul class="sidenav-nav ps-0">
+           
+                @*@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.MobHeaderMenuBefore })*@
+                @if (Model.DisplayHomepageMenuItem)
+                {
+                    <li><a href="@Url.RouteUrl("Homepage")">@T("Homepage")</a></li>
+                }
+                @if (!Model.UseAjaxMenu)
+                {
+                    @foreach (var category in rootCategoriesResponsive)
+                    {
+                        var categoryLineModel = new TopMenuModel.CategoryLineModel
+                        {
+                            Category = category,
+                            ResponsiveMobileMenu = true
+                        };
+                        await CategoryLine(categoryLineModel);
+                    }
+
+                }
+                @foreach (var topic in Model.Topics)
+                {
+                    <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
+                }
+                @if (Model.NewProductsEnabled && Model.DisplayNewProductsMenuItem)
+                {
+                    <li><a href="@Url.RouteUrl("NewProducts")">@T("Products.NewProducts")</a></li>
+                }
+                @if (Model.DisplayProductSearchMenuItem)
+                {
+                    <li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a></li>
+                }
+                @if (Model.DisplayCustomerInfoMenuItem)
+                {
+                    <li><a href="@Url.RouteUrl("CustomerInfo")">@T("Account.MyAccount")</a></li>
+                }
+                @if (Model.BlogEnabled && Model.DisplayBlogMenuItem)
+                {
+                    <li><a href="@Url.RouteUrl("Blog")">@T("Blog")</a></li>
+                }
+                @if (Model.ForumEnabled && Model.DisplayForumsMenuItem)
+                {
+                    <li><a href="@Url.RouteUrl("Boards")">@T("Forum.Forums")</a></li>
+                }
+                @if (Model.DisplayContactUsMenuItem)
+                {
+                    <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
+                }
+                @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.MobHeaderMenuAfter })
+            </ul>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿@inject Nop.Core.IWebHelper webHelper
+@inject Nop.Services.Helpers.IUserAgentHelper userAgent
+@inject Nop.Web.Factories.ICustomerModelFactory _customerModelFactory
+@inject Nop.Core.IWorkContext workerContext
+@{
+    Nop.Web.Models.Customer.CustomerAvatarModel customerAvatarModel = new CustomerAvatarModel();
+    var avtar = _customerModelFactory.PrepareCustomerAvatarModelAsync(customerAvatarModel).Result;
+    var customerCurrent = workerContext.GetCurrentCustomerAsync().Result;
+    var cutomerModel = await _customerModelFactory.PrepareCustomerInfoModelAsync(new CustomerInfoModel(),customerCurrent,false);
+
+}
+@if (userAgent.IsMobileDevice())
+{
+<div class="vendor-details-wrap bg-img bg-overlay py-4 my-3" style="background-image: url('/lib/ClientM/img/pbg.jpg')">
+    <div class="container">
+        <div class="d-flex align-items-start">
+            <div class="vendor-profile shadow me-3 mt-1">
+                <figure class="m-0"><img src="@avtar.AvatarUrl"></figure>
+            </div>
+
+            <div class="vendor-info">
+                <h5 class="vendor-title text-white">@cutomerModel.FirstName @cutomerModel.LastName</h5>
+                <p class="mb-1 text-white"><i class="fa fa-phone"></i> @cutomerModel.Phone</p>
+                <p class="mb-1 text-white"><i class="fa fa-envelope"></i> @cutomerModel.Email</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+}
